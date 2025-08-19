@@ -22,35 +22,6 @@ A scalable **FastAPI backend** with AWS serverless integrations handles user int
 - **Impact:** Improved grant application turnaround by **70%**, validated via functional tests and stakeholder feedback.  
 
 ---
-
-## Architecture
-
-```text
-       +--------------------+
-       | User Grant Request |
-       +---------+----------+
-                 |
-                 v
-        +------------------+
-        | FastAPI Backend  |
-        +------------------+
-        | Intake & Routing |
-                 |
-                 v
-      +-------------------------+
-      | RAG + LLM Processing    |
-      | FAISS / ChromaDB        |
-      | Gemini 1.5 / Ollama LLM|
-      +-------------------------+
-                 |
-                 v
-      +-------------------------+
-      | Proposal Output & Docs  |
-      +-------------------------+
-                 |
-                 v
-         AWS S3 Storage & Lambda
----
 ## Tech Stack
 
 - **Programming Language:** Python  
