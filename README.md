@@ -53,11 +53,3 @@ pip install -r requirements.txt
 
 # Run backend locally
 uvicorn back_end.main:app --reload
-
-
-Contact
-Sachin Kaushik
-
-GitHub: sachinkaushik0
-
-Email: sachinkaushikca@gmail.com
