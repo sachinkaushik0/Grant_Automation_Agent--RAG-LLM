@@ -51,31 +51,28 @@ A scalable **FastAPI backend** with AWS serverless integrations handles user int
                  v
          AWS S3 Storage & Lambda
 ---
-# Tech Stack
-Language: Python
+## Tech Stack
 
-LLM: Google Gemini 1.5 Flash, Ollama
+- **Programming Language:** Python  
+- **LLMs:** Google Gemini 1.5 Flash, Ollama  
+- **RAG / Search:** FAISS, ChromaDB  
+- **Backend / API:** FastAPI  
+- **Cloud / Serverless:** AWS S3, AWS Lambda  
+- **Other:** Prompt Engineering, Modular Prompt Templates  
 
-RAG / Search: FAISS, ChromaDB
+---
 
-Backend / API: FastAPI
+## Getting Started
 
-Cloud / Serverless: AWS S3, AWS Lambda
+### Prerequisites
 
-Other: Prompt Engineering, Modular Templates
+- Python 3.10+  
+- Access to LLM models (Gemini 1.5 Flash, Ollama)  
+- AWS account with S3 and Lambda configured  
 
-Getting Started
-Prerequisites
-Python 3.10+
+### Installation
 
-Access to LLM models (Gemini 1.5 Flash, Ollama)
-
-AWS account with S3 and Lambda configured
-
-Installation
-bash
-Copy
-Edit
+```bash
 # Clone the repository
 git clone https://github.com/sachinkaushik0/Grant_Automation_Agent.git
 cd Grant_Automation_Agent
@@ -85,19 +82,7 @@ pip install -r requirements.txt
 
 # Run backend locally
 uvicorn back_end.main:app --reload
-Usage
-Submit grant documents or eligibility queries through the API.
 
-The RAG + LLM pipeline processes the input, retrieving relevant context and generating a proposal.
-
-Outputs are stored securely in AWS S3 and accessible via API or dashboard.
-
-Results
-70% faster grant application turnaround compared to manual processing.
-
-Production-ready pipeline capable of handling real-time requests.
-
-Fully automated, cloud-integrated workflow for grant management.
 
 Contact
 Sachin Kaushik
