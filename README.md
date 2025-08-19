@@ -50,6 +50,7 @@ A scalable **FastAPI backend** with AWS serverless integrations handles user int
                  |
                  v
          AWS S3 Storage & Lambda
+---
 Tech Stack
 Language: Python
 
