@@ -51,7 +51,7 @@ A scalable **FastAPI backend** with AWS serverless integrations handles user int
                  v
          AWS S3 Storage & Lambda
 ---
-Tech Stack
+# Tech Stack
 Language: Python
 
 LLM: Google Gemini 1.5 Flash, Ollama
